@@ -1,0 +1,25 @@
+<MapDefinition type="TileMap" version="1" dimensions="8,5">
+
+	<Legend>
+		<Tile glyph="#" regionType="CobblestoneWall"/>
+		<Tile glyph="." regionType="StoneFloor"/>
+	</Legend>
+	<MapRows>
+		<MapRow tiles="########"/>
+		<MapRow tiles="#......#"/>
+		<MapRow tiles="#......#"/>
+		<MapRow tiles="#......#"/>
+		<MapRow tiles="########"/>
+	</MapRows>
+	<Entities>
+		<PlayerStart pos="1.5,1.5" yaw="90"/>
+    	<Actor type="Pinky" pos="3,2" yaw="180"/>
+    	<Actor type="Pinky" pos="5,2" yaw="110"/>
+    	<Actor type="Marine" pos="4,3" yaw="110"/>
+    	<Portal name="Teleporter" pos="4.0,1.5" yaw="90"
+				destMap="EmptyRoom" destPos="4,2" destYawOffset="90"/>
+	</Entities>
+
+</MapDefinition>
+
+

@@ -1,0 +1,37 @@
+<MapRegionTypes default="InvalidRegion">
+
+	<RegionType name="InvalidRegion" isSolid="false">
+		<Floor material="InvalidMaterial"/>
+		<Ceiling material="InvalidMaterial"/>
+	</RegionType>
+
+	<RegionType name="TestRegionOpen" isSolid="false">
+		<Floor material="TestMaterial"/>
+		<Ceiling material="TestMaterial"/>
+	</RegionType>
+
+	<RegionType name="TestRegionSolid" isSolid="true">
+		<Side material="TestMaterial"/>
+	</RegionType>
+
+	<RegionType name="CobblestoneWall" isSolid="true">
+		<Side material="Cobblestone"/>
+	</RegionType>
+
+	<RegionType name="WoodWall" isSolid="true">
+		<Side material="Wood"/>
+	</RegionType>
+
+	<RegionType name="StoneFloor" isSolid="false">
+		<Floor material="StoneBrick"/>
+		<Ceiling material="RoughStone"/>
+	</RegionType>
+
+	<RegionType name="GrassFloor" isSolid="false">
+		<Floor material="Grass"/>
+		<Ceiling material="RoughStone"/>
+	</RegionType>
+
+</MapRegionTypes>
+
+

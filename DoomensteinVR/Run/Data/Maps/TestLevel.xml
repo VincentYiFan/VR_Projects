@@ -1,0 +1,30 @@
+<MapDefinition type="TileMap" version="1" dimensions="16,9">
+
+	<Legend>
+		<Tile glyph="C" regionType="CobblestoneWall"/>
+		<Tile glyph="W" regionType="WoodWall"/>
+		<Tile glyph="." regionType="StoneFloor"/>
+		<Tile glyph="," regionType="GrassFloor"/>
+	</Legend>
+	<MapRows>
+		<MapRow tiles="CCCCCCCCCCCCCCCC"/>
+		<MapRow tiles="C..............C"/>
+		<MapRow tiles="C..W........W..C"/>
+		<MapRow tiles="C.....,,W......C"/>
+		<MapRow tiles="C........C.....C"/>
+		<MapRow tiles="CCCCC....C.....C"/>
+		<MapRow tiles="C........C..C,CC"/>
+    <MapRow tiles="C........C..C,CC"/>
+		<MapRow tiles="CCCCCCCCCCCCCCCC"/>
+	</MapRows>
+	<Entities>
+		<PlayerStart pos="2.0,2.0" yaw="0"/>
+		<Actor type="Pinky" pos="11.0,5.0" yaw="120"/>
+		<Actor type="Pinky" pos="12.0,7.5" yaw="145"/>
+    <Actor type="RangedEnemy" pos="3.0,5.0" yaw="25"/>
+    <Actor type="RangedEnemy" pos="7.0,2.5" yaw="150"/>
+	</Entities>
+
+</MapDefinition>
+
+

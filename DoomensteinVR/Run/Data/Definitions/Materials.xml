@@ -1,0 +1,30 @@
+	<Materials>
+	
+		<Material name="Lit">
+			<ShaderState name="Lit"/>
+			<Albedo path="Data/Textures/wasp_albedo.png" tint="255,255,255,255"/>
+			<Normal path="Data/Textures/wasp_normal.png"/>
+			<!--<Specular path="Data/Textures/example_spec.png" factor="1" power="32"/>-->
+		</Material>
+		
+    <Material name="Stone">
+			<ShaderState name="Lit"/>
+			<Albedo path="Data/Textures/example_colour.png" tint="255,255,255,255"/>
+			<Normal path="Data/Textures/Sci-fi_Floor_002_normal.jpg"/>
+			<Specular path="Data/Textures/Sci-fi_Floor_002_ambientOcclusion.jpg" factor="1" power="32"/>
+		</Material>
+      
+		<Material name="WorldOpaque">
+			<ShaderState name="WorldOpaque"/>
+			<Albedo path="Data/Images/Test_StbiFlippedAndOpenGL.png" tint="255,255,255,255"/>
+		</Material>
+		
+		<Material name="Dissolve">
+			<ShaderState name="Dissolve"/>
+			<Albedo path="Data/Textures/example_colour.png" tint="255,255,255,255"/>
+			<Normal path="Data/Textures/example_normal.png"/>
+			<Specular path="Data/Textures/example_spec.png" factor="1" power="32"/>
+			<Texture slot="8" path="Data/Textures/noise.png"/>
+		</Material>
+		
+	</Materials>	

@@ -1,0 +1,9 @@
+<GameConfig
+	
+	startMap="TestLevel"
+	windowAspect="2.0"
+	isFullScreen="false"
+	coordinate="XFORWARD_YLEFT_ZUP" 
+	weaponViewModelSize="940.0"
+	
+/>

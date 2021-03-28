@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{97d59dbc-26df-4f4c-bdae-8b50c43069f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{a1c6d20c-0622-4743-ada9-cbe44c7ef731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Definitions">
+      <UniqueIdentifier>{4dd60819-b1db-4313-a6fb-567203e01ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\World">
+      <UniqueIdentifier>{e00f3f1c-7feb-4695-954c-3fad12ac9c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Framework">
+      <UniqueIdentifier>{64900fc2-508c-4c3e-8262-8bc7a0c195e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\VR">
+      <UniqueIdentifier>{a6f3aafa-27d4-40b5-a44c-3b28d7525a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3537f015-73ec-4cff-addb-68e2120a026c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Map.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>General\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>General\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>General\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>General\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+    <ClCompile Include="MapRegionType.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMaterial.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityDef.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>General\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="LighthouseTracking.cpp">
+      <Filter>General\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectXTools\TextureLoader.cpp">
+      <Filter>General\VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectXTools\pch.cpp">
+      <Filter>General\VR</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedEnemy.cpp">
+      <Filter>General\World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineBuildPreferences.hpp" />
+    <ClInclude Include="Map.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+    <ClInclude Include="App.hpp">
+      <Filter>General\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>General\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>General\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+    <ClInclude Include="MapRegionType.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMaterial.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityDef.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RaycastResult.hpp">
+      <Filter>General\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+    <ClInclude Include="LighthouseTracking.hpp">
+      <Filter>General\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>General\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>General\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectXTools\TextureLoader.h">
+      <Filter>General\VR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectXTools\DirectXHelpers.h">
+      <Filter>General\VR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectXTools\pch.h">
+      <Filter>General\VR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectXTools\PlatformHelpers.h">
+      <Filter>General\VR</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedEnemy.hpp">
+      <Filter>General\World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\GameConfig.xml" />
+    <Xml Include="..\..\Run\Data\Maps\EmptyRoom.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Maps\SingleBlock.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Maps\TestRoom.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Maps\TwistyMaze.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\EntityTypes.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\MapMaterialTypes.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\MapRegionTypes.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Maps\TestLevel.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\Materials.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\ShaderState.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DoomensteinVR.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run\Data\Images\doomensteinvr_logo_32x32.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

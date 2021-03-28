@@ -1,0 +1,93 @@
+	<ShaderStates>
+	
+		<ShaderState 
+			name="Lit"
+			Shader="Data/Shaders/Lit.hlsl"
+			BlendMode="Alpha"
+			DepthTest="LEqual"
+			DepthWrite="true"
+			WindingCCW="true"
+			Culling="Back"
+			FillMode="Solid"
+		/>
+		
+		<ShaderState 
+			name="WorldOpaque"
+			Shader="Data/Shaders/WorldOpaque.hlsl"
+			BlendMode="Alpha"
+			DepthTest="LEqual"
+			DepthWrite="true"
+			WindingCCW="true"
+			Culling="Back"
+			FillMode="Solid"
+		/>
+		
+		<ShaderState
+			name="Normal"
+			Shader="Data/Shaders/Normal.hlsl"
+			BlendMode="Opaque"
+			DepthTest="Equal"
+			DepthWrite="true"
+			WindingCCW="true"
+			Culling="Back"
+			FillMode="Solid"
+		/>
+		
+		<ShaderState
+			name="Dissolve"
+			Shader="Data/Shaders/Dissolve.hlsl"
+			BlendMode="Alpha"
+			DepthTest="LEqual"
+			DepthWrite="true"
+			WindingCCW="true"
+			Culling="Back"
+			FillMode="Solid"
+		/>
+		
+		<ShaderState
+			name="Fresnel"
+			Shader="Data/Shaders/Fresnel.hlsl"
+			BlendMode="Opaque"
+			DepthTest="Equal"
+			DepthWrite="true"
+			WindingCCW="true"
+			Culling="Back"
+			FillMode="Solid"
+		/>
+		
+		
+		<ShaderState
+			name="Tangent"
+			Shader="Data/Shaders/Tangent.hlsl"
+			BlendMode="Opaque"
+			DepthTest="Equal"
+			DepthWrite="true"
+			WindingCCW="true"
+			Culling="Back"
+			FillMode="Solid"
+		/>
+		
+		<ShaderState
+			name="Bitangent"
+			Shader="Data/Shaders/Bitangent.hlsl"
+			BlendMode="Opaque"
+			DepthTest="Equal"
+			DepthWrite="true"
+			WindingCCW="true"
+			Culling="Back"
+			FillMode="Solid"
+		/>
+		
+		<ShaderState
+			name="SurfaceNormal"
+			Shader="Data/Shaders/SurfaceNormal.hlsl"
+			BlendMode="Opaque"
+			DepthTest="Equal"
+			DepthWrite="true"
+			WindingCCW="true"
+			Culling="Back"
+			FillMode="Solid"
+		/>
+		
+		
+	</ShaderStates>	
